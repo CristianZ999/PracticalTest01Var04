@@ -18,6 +18,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="32dp"/>
 
+    <CheckBox
+        android:id="@+id/myCheckBox"
+        android:layout_width="41dp"
+        android:layout_height="43dp"
+        android:text="My Checkbox"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="90dp" />
+
     <EditText
         android:id="@+id/left_edit_text"
         android:layout_width="0dp"
@@ -34,24 +43,33 @@
         app:layout_constraintTop_toBottomOf="@id/navigate_to_secondary_activity_button"
         tools:ignore="LabelFor" />
 
+    <CheckBox
+        android:id="@+id/myCheckBox2"
+        android:layout_width="36dp"
+        android:layout_height="37dp"
+        android:text="My Checkbox"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="342dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+
+    <!-- Press Me Button -->
     <EditText
         android:id="@+id/right_edit_text"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="187dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:ems="6"
         android:enabled="false"
         android:gravity="center"
         android:importantForAutofill="no"
         android:inputType="number"
-        android:ems="6"
-        app:layout_constraintTop_toTopOf="@id/left_edit_text"
-        app:layout_constraintStart_toEndOf="@id/left_edit_text"
-        android:layout_marginStart="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="0dp"
+        app:layout_constraintStart_toEndOf="@id/left_edit_text"
+        app:layout_constraintTop_toTopOf="@id/left_edit_text"
         tools:ignore="LabelFor" />
 
-
-    <!-- Press Me Button -->
     <Button
         android:id="@+id/press_me_button"
         android:layout_width="0dp"

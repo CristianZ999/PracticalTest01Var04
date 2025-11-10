@@ -8,20 +8,22 @@
     tools:context=".PracticalTest01Var04SecondaryActivity">
 
     <!-- Show Secondary Activity Button -->
+
     <Button
         android:id="@+id/navigate_to_secondary_activity_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
         android:text="@string/ok"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="32dp"/>
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/left_edit_text"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="183dp"
+        android:layout_height="42dp"
         android:layout_marginTop="68dp"
         android:layout_marginEnd="8dp"
         android:ems="6"
@@ -54,14 +56,15 @@
     <!-- Press Me Button -->
     <Button
         android:id="@+id/press_me_button"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="8dp"
         android:text="@string/cancel"
-        app:layout_constraintTop_toBottomOf="@id/left_edit_text"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="8dp"/>
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/left_edit_text" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
