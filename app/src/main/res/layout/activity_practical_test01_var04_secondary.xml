@@ -5,14 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PracticalTest01Var04MainActivity">
+    tools:context=".PracticalTest01Var04SecondaryActivity">
 
     <!-- Show Secondary Activity Button -->
     <Button
         android:id="@+id/navigate_to_secondary_activity_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/navigate_to_secondary_activity"
+        android:text="@string/ok"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,7 +56,7 @@
         android:id="@+id/press_me_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/press_me"
+        android:text="@string/cancel"
         app:layout_constraintTop_toBottomOf="@id/left_edit_text"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="24dp"
