@@ -1,1 +1,1 @@
-# PracticalTest01Var04
+Zamfirescu Cristian-Eugen, grupa 342C2
